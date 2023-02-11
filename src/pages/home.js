@@ -1,72 +1,12 @@
-// import Card from "../componants/text-card";
-//
-// function Home() {
-//     return (
-//         <div className={'body'}>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//             <Card title={'Hello, I\'m Atul'} text={'New here? welcome!'}/>
-//         </div>
-//     )
-// }
-//
-// export default Home;
-
-import Card from "../components/text-card";
+import TextCard from "../components/text-card";
+import ImageCard from "../components/image-card";
 
 function Home() {
-        const cards = [...Array(30)].map((_, i) => (
-            <Card key={i} title={"Hello, I'm Atul"} text={"New here? Welcome!"} />
-        ));
+    const cards = [...Array(30)].map((_, i) => (
+        <TextCard key={i} title={"Hello, I'm Atul"} text={"New here? Welcome!"}/>
+    ));
 
-        return <div className="body">{cards}</div>;
+    return <div className="body"> <ImageCard src={'https://lh3.googleusercontent.com/jYvTmh_2nVegZhzsrjZe2xd8YjpxCtIL1E9ocQ3BOkCMY9TJD4mPXwudRSlVxIdDXLzAUEVvIFHRa7cmqCzYJ4CH0XqEiXroS2I8kRur'} alt={'moodboard'}/> {cards}</div>;
 }
+
 export default Home;

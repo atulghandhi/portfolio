@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/Card.css';
 
-const Card = ({ title, text }) => {
+const TextCard = ({ title, text }) => {
     return (
         <div className="card">
             <div className="card-title">
@@ -13,4 +13,4 @@ const Card = ({ title, text }) => {
     );
 };
 
-export default Card;
+export default TextCard;

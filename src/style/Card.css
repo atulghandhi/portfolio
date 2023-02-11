@@ -33,3 +33,15 @@
     padding: 20px;
     text-align: justify;
 }
+
+.image-card {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    background: none;
+}
+
+.image{
+    width: 635px;
+}
