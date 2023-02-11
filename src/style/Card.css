@@ -1,0 +1,35 @@
+.card {
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    margin: 20px;
+    background-color: #fafafa;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-title h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.card-title hr {
+    border: 1px solid #ddd;
+    margin: 20px;
+}
+
+.card-title hr {
+    border: 1px solid #03a7f5;
+    margin: 10px;
+    width: 96%;
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    text-align: justify;
+}
