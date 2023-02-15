@@ -5,22 +5,28 @@
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: transparent;
+    background: var(--primary-grey);
 }
 
 .body {
-    background-color: #DD6E32;
-    opacity: 90%;
+    border: solid 1px darkorange;
     height: auto;
     padding: 20px;
     margin-top: 8px;
     margin-bottom: 8px;
+
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap; /*makes cards arrange in grid, instead of single horizontal row*/
+    justify-content: center; /*centers cards*/
 }
 
 .wrapper {
     margin: 15px;
+}
+
+:root {
+    --primary-orange: #C96530;
+    --bright-orange: #ff6600;
+    --primary-grey: #1b1b1b;
+    --secondary-grey: #242424;
 }

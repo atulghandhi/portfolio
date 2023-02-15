@@ -2,7 +2,7 @@ import "../style/NavBar.css"
 
 function Footer() {
     return (
-        <div className={'footer navbar'}>
+        <div className={'footer'}>
             <p>Welcome to the Footer</p>
         </div>
     )

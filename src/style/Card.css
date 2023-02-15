@@ -3,7 +3,7 @@
     width: 20%;
     height: 300px;
     margin: 20px;
-    background-color: #fafafa;
+    background-color: #C96530;
     text-align: center;
     padding: 20px;
 }
@@ -14,16 +14,12 @@
     text-align: center;
     padding: 20px;
     margin: 0;
+    background: darkorange;
+
 }
 
 .card-title hr {
-    border: 1px solid #ddd;
-    margin: 20px;
-}
-
-.card-title hr {
-    border: 1px solid #03a7f5;
-    margin: 10px;
+    border: 1px solid var(--secondary-grey);
     width: 96%;
 }
 
@@ -32,6 +28,7 @@
     font-size: 18px;
     padding: 20px;
     text-align: justify;
+    background: darkorange;
 }
 
 .image-card {
@@ -43,5 +40,5 @@
 }
 
 .image{
-    width: 635px;
+    width: 500px;
 }

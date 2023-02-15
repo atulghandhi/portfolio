@@ -1,6 +1,6 @@
 const NavbarItem = (props) => {
     return (
-        <div>
+        <div className={"navbar-item"}>
             {props.itemText}
         </div>
     );

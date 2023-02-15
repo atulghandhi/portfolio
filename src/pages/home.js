@@ -6,7 +6,12 @@ function Home() {
         <TextCard key={i} title={"Hello, I'm Atul"} text={"New here? Welcome!"}/>
     ));
 
-    return <div className="body"> <ImageCard src={'https://lh3.googleusercontent.com/jYvTmh_2nVegZhzsrjZe2xd8YjpxCtIL1E9ocQ3BOkCMY9TJD4mPXwudRSlVxIdDXLzAUEVvIFHRa7cmqCzYJ4CH0XqEiXroS2I8kRur'} alt={'moodboard'}/> {cards}</div>;
+    return <div className="body">
+        <ImageCard
+            src={'../resources/cartoon-id-pic.png'}
+            alt={'my-face'}> </ImageCard>
+        {cards}
+    </div>;
 }
 
 export default Home;
