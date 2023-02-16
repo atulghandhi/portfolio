@@ -1,14 +1,16 @@
 import React from 'react';
 import '../style/Card.css';
 
-const TextCard = ({ title, text }) => {
+const TextCard = ({ id, title, text }) => {
     return (
-        <div className="card">
+        <div id={id} className="card">
             <div className="card-title">
                 <h2>{title}</h2>
                 <hr />
             </div>
-            <p className="card-text">{text}</p>
+            <pre><p className="card-text">
+                {text}
+            </p></pre>
         </div>
     );
 };

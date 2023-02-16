@@ -1,16 +1,15 @@
 .card {
     display: inline-block;
-    width: 20%;
-    height: 300px;
-    background-color: #C96530;
+    height: 259px;
+    background-color: var(--purple);
     text-align: center;
     padding: 20px;
     /*margin: 20px 0;*/
 }
 
 .card {
-    flex-basis: calc(20% - 20px); /*seems to define the width of each flex item, and gap between items*/
-    margin-bottom: 20px; /*defines margin between items vertically, but not margin with page/container*/
+    /*flex-basis: calc(20% - 20px); !*seems to define the width of each flex item, and gap between items*!*/
+    margin-bottom: 15px; /*defines margin between items vertically, but not margin with page/container*/
 }
 
 .card:first-child {
@@ -27,7 +26,7 @@
     text-align: center;
     padding: 20px;
     margin: 0;
-    background: darkorange;
+    background: var(--purple);
 
 }
 
@@ -41,19 +40,36 @@
     font-size: 18px;
     padding: 20px;
     text-align: justify;
-    background: darkorange;
+    background: var(--purple);
+    white-space: pre-wrap;
 }
 
 .image-card {
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
     width: auto;
     height: auto;
     background: none;
+    flex: 0 0 auto;
+    margin-right: 20px;
 }
 
 #pic{
     width: 300px;
-    margin: 0 30px 0 0;
 }
 
+#profile{
+    width:1385px;
+}
+
+#status{
+    width: 825px;
+}
+
+#work-exp{
+    width: 825px;
+}
+
+#edu{
+    width: 1720px;
+}
