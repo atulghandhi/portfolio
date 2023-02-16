@@ -3,6 +3,7 @@
     justify-content: space-between; /*centers navbar items - along with line above it*/
     background-color: var(--secondary-grey);
     padding: 20px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
 

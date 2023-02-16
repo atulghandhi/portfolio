@@ -8,7 +8,7 @@ function Home() {
 
     return <div className="body">
         <ImageCard
-            src={'../resources/cartoon-id-pic.png'}
+            src={'https://media.licdn.com/dms/image/D4E03AQHSWva2wjpnQQ/profile-displayphoto-shrink_800_800/0/1674587538320?e=1681948800&v=beta&t=YhMyqEWauXXgx0jkfJkDe_FjLXZuWy291nzuxuiMLHw'}
             alt={'my-face'}> </ImageCard>
         {cards}
     </div>;

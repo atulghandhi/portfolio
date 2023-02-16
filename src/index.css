@@ -9,15 +9,11 @@
 }
 
 .body {
-    border: solid 1px darkorange;
+    /*border: solid 1px darkorange;*/
     height: auto;
-    padding: 20px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-
     display: flex;
     flex-wrap: wrap; /*makes cards arrange in grid, instead of single horizontal row*/
-    justify-content: center; /*centers cards*/
+    justify-content: space-between /*centers cards*/
 }
 
 .wrapper {
@@ -30,3 +26,4 @@
     --primary-grey: #1b1b1b;
     --secondary-grey: #242424;
 }
+

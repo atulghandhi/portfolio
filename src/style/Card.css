@@ -2,10 +2,23 @@
     display: inline-block;
     width: 20%;
     height: 300px;
-    margin: 20px;
     background-color: #C96530;
     text-align: center;
     padding: 20px;
+    /*margin: 20px 0;*/
+}
+
+.card {
+    flex-basis: calc(20% - 20px); /*seems to define the width of each flex item, and gap between items*/
+    margin-bottom: 20px; /*defines margin between items vertically, but not margin with page/container*/
+}
+
+.card:first-child {
+    margin-top: 0;
+}
+
+.card:last-child {
+    margin-bottom: 0;
 }
 
 .card-title h2 {
@@ -39,6 +52,8 @@
     background: none;
 }
 
-.image{
-    width: 500px;
+#pic{
+    width: 300px;
+    margin: 0 30px 0 0;
 }
+

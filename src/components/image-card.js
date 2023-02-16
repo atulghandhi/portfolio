@@ -4,7 +4,7 @@ import '../style/Card.css';
 const ImageCard = ({ src, alt }) => {
     return (
         <div className="image-card card">
-            <img src={src} alt={alt}/>
+            <img id={'pic'} src={src} alt={alt}/>
         </div>
     );
 };
